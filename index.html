@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog sobre Interacción Humano-Computador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog sobre Interacción Humano-Computador</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#articulos">Artículos</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio" class="seccion animar">
+            <h2>Bienvenido al Blog</h2>
+            <p>Explora temas de diseño, usabilidad y mejores prácticas en Interacción Humano-Computador.</p>
+        </section>
+
+        <h2>Últimos Artículos</h2>
+    <article>
+        <h3>La importancia de la Interacción Humano-Computador</h3>
+        <img src="img/ihc-importancia.jpg" alt="Importancia de la Interacción Humano-Computador" class="articulo-imagen">
+        
+        <p>La Interacción Humano-Computador (IHC) es un campo fundamental en el desarrollo de tecnologías que busca mejorar la comunicación entre las personas y los sistemas digitales. A medida que la tecnología se integra cada vez más en nuestras vidas, la IHC se enfoca en diseñar interfaces y experiencias que sean intuitivas, accesibles y efectivas. Los estudios en esta área han permitido que los dispositivos y aplicaciones actuales se adapten mejor a las necesidades y habilidades de los usuarios, facilitando su adopción y aumentando su efectividad.</p>
+
+        <p>Un aspecto crucial de la IHC es la usabilidad, que permite evaluar qué tan fácil y satisfactoria es la interacción entre el usuario y la tecnología. En este contexto, los principios de usabilidad, como los de Jakob Nielsen y las leyes de Fitts y Hick, ofrecen lineamientos para simplificar y optimizar el diseño de interfaces. Estos principios ayudan a los diseñadores a crear productos que reduzcan la frustración y el esfuerzo cognitivo, permitiendo a los usuarios realizar sus tareas con mayor fluidez y eficiencia. Además, un diseño orientado a la usabilidad suele aumentar la satisfacción y confianza de los usuarios al interactuar con el sistema.</p>
+
+        <p>Otro factor importante dentro de la IHC es la accesibilidad, que se enfoca en hacer que las interfaces sean utilizables por personas con diferentes capacidades. La accesibilidad asegura que todos los usuarios, independientemente de sus limitaciones físicas, sensoriales o cognitivas, puedan interactuar con la tecnología de manera efectiva. Diseñar para la accesibilidad no solo beneficia a aquellos con discapacidades, sino que también mejora la experiencia general del usuario, ya que promueve la flexibilidad y adaptabilidad en los sistemas, permitiendo su uso en diversos contextos y dispositivos.</p>
+
+        <p>Finalmente, la IHC no solo se limita al diseño de interfaces, sino que también involucra la investigación y evaluación de cómo los usuarios interactúan con la tecnología en la vida real. Mediante métodos como pruebas de usuario, análisis de datos de interacción y observación de patrones de uso, los profesionales de IHC pueden identificar áreas de mejora y adaptar las interfaces a las necesidades cambiantes de los usuarios. Esta constante evolución asegura que la tecnología se mantenga relevante y útil, promoviendo una interacción más enriquecedora y humana entre las personas y los sistemas computacionales.</p>
+    </article>
+        </section>
+
+        <section id="sobre-mi" class="seccion animar">
+            <h2>Sobre mí</h2>
+            <p>Desarrollador enfocado en la creación de experiencias centradas en el usuario. Me apasiona explorar cómo la tecnología puede facilitar la vida de las personas a través de diseños intuitivos y accesibles.</p>
+        </section>
+
+        <section id="contacto" class="seccion animar">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="success-message"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Blog IHC - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
